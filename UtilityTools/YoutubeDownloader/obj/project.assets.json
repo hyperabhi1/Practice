@@ -1,0 +1,1361 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "CliWrap/2.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/CliWrap.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CliWrap.dll": {}
+        }
+      },
+      "Fody/4.2.1": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
+      "Gress/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Gress.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Gress.dll": {}
+        }
+      },
+      "LtGt/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Sprache": "2.2.0"
+        },
+        "compile": {
+          "lib/net45/LtGt.dll": {}
+        },
+        "runtime": {
+          "lib/net45/LtGt.dll": {}
+        }
+      },
+      "MaterialDesignColors/1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MaterialDesignColors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MaterialDesignColors.dll": {}
+        }
+      },
+      "MaterialDesignThemes/2.5.1": {
+        "type": "package",
+        "dependencies": {
+          "MaterialDesignColors": "1.1.2"
+        },
+        "compile": {
+          "lib/net45/MaterialDesignThemes.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MaterialDesignThemes.Wpf.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Onova/2.4.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "frameworkAssemblies": [
+          "System.IO.Compression",
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net46/Onova.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Onova.dll": {}
+        }
+      },
+      "Ookii.Dialogs.Wpf/1.1.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System",
+          "System.Core",
+          "System.Design",
+          "System.Drawing",
+          "System.Security",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net45/Ookii.Dialogs.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Ookii.Dialogs.Wpf.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/2.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "4.2.1"
+        },
+        "compile": {
+          "lib/net452/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/net452/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
+        }
+      },
+      "Sprache/2.2.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net45/Sprache.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Sprache.dll": {}
+        }
+      },
+      "Stylet/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Stylet.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Stylet.dll": {}
+        }
+      },
+      "System.Windows.Interactivity.WPF/2.0.20525": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Expression.Interactions.dll": {},
+          "lib/net40/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Expression.Interactions.dll": {},
+          "lib/net40/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "Tyrrrz.Extensions/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Tyrrrz.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Tyrrrz.Extensions.dll": {}
+        }
+      },
+      "Tyrrrz.Settings/1.3.4": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.2"
+        },
+        "compile": {
+          "lib/net45/Tyrrrz.Settings.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Tyrrrz.Settings.dll": {}
+        }
+      },
+      "YoutubeExplode/4.7.6": {
+        "type": "package",
+        "dependencies": {
+          "LtGt": "1.0.0",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/YoutubeExplode.dll": {}
+        },
+        "runtime": {
+          "lib/net45/YoutubeExplode.dll": {}
+        }
+      },
+      "YoutubeExplode.Converter/1.4.2": {
+        "type": "package",
+        "dependencies": {
+          "CliWrap": "2.2.2",
+          "YoutubeExplode": "4.7.0"
+        },
+        "compile": {
+          "lib/net45/YoutubeExplode.Converter.dll": {}
+        },
+        "runtime": {
+          "lib/net45/YoutubeExplode.Converter.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win": {
+      "CliWrap/2.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/CliWrap.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CliWrap.dll": {}
+        }
+      },
+      "Fody/4.2.1": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
+      "Gress/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Gress.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Gress.dll": {}
+        }
+      },
+      "LtGt/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Sprache": "2.2.0"
+        },
+        "compile": {
+          "lib/net45/LtGt.dll": {}
+        },
+        "runtime": {
+          "lib/net45/LtGt.dll": {}
+        }
+      },
+      "MaterialDesignColors/1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MaterialDesignColors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MaterialDesignColors.dll": {}
+        }
+      },
+      "MaterialDesignThemes/2.5.1": {
+        "type": "package",
+        "dependencies": {
+          "MaterialDesignColors": "1.1.2"
+        },
+        "compile": {
+          "lib/net45/MaterialDesignThemes.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MaterialDesignThemes.Wpf.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Onova/2.4.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "frameworkAssemblies": [
+          "System.IO.Compression",
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net46/Onova.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Onova.dll": {}
+        }
+      },
+      "Ookii.Dialogs.Wpf/1.1.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System",
+          "System.Core",
+          "System.Design",
+          "System.Drawing",
+          "System.Security",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net45/Ookii.Dialogs.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Ookii.Dialogs.Wpf.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/2.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "4.2.1"
+        },
+        "compile": {
+          "lib/net452/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/net452/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
+        }
+      },
+      "Sprache/2.2.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net45/Sprache.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Sprache.dll": {}
+        }
+      },
+      "Stylet/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Stylet.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Stylet.dll": {}
+        }
+      },
+      "System.Windows.Interactivity.WPF/2.0.20525": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Expression.Interactions.dll": {},
+          "lib/net40/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Expression.Interactions.dll": {},
+          "lib/net40/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "Tyrrrz.Extensions/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Tyrrrz.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Tyrrrz.Extensions.dll": {}
+        }
+      },
+      "Tyrrrz.Settings/1.3.4": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.2"
+        },
+        "compile": {
+          "lib/net45/Tyrrrz.Settings.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Tyrrrz.Settings.dll": {}
+        }
+      },
+      "YoutubeExplode/4.7.6": {
+        "type": "package",
+        "dependencies": {
+          "LtGt": "1.0.0",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/YoutubeExplode.dll": {}
+        },
+        "runtime": {
+          "lib/net45/YoutubeExplode.dll": {}
+        }
+      },
+      "YoutubeExplode.Converter/1.4.2": {
+        "type": "package",
+        "dependencies": {
+          "CliWrap": "2.2.2",
+          "YoutubeExplode": "4.7.0"
+        },
+        "compile": {
+          "lib/net45/YoutubeExplode.Converter.dll": {}
+        },
+        "runtime": {
+          "lib/net45/YoutubeExplode.Converter.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x64": {
+      "CliWrap/2.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/CliWrap.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CliWrap.dll": {}
+        }
+      },
+      "Fody/4.2.1": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
+      "Gress/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Gress.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Gress.dll": {}
+        }
+      },
+      "LtGt/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Sprache": "2.2.0"
+        },
+        "compile": {
+          "lib/net45/LtGt.dll": {}
+        },
+        "runtime": {
+          "lib/net45/LtGt.dll": {}
+        }
+      },
+      "MaterialDesignColors/1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MaterialDesignColors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MaterialDesignColors.dll": {}
+        }
+      },
+      "MaterialDesignThemes/2.5.1": {
+        "type": "package",
+        "dependencies": {
+          "MaterialDesignColors": "1.1.2"
+        },
+        "compile": {
+          "lib/net45/MaterialDesignThemes.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MaterialDesignThemes.Wpf.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Onova/2.4.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "frameworkAssemblies": [
+          "System.IO.Compression",
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net46/Onova.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Onova.dll": {}
+        }
+      },
+      "Ookii.Dialogs.Wpf/1.1.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System",
+          "System.Core",
+          "System.Design",
+          "System.Drawing",
+          "System.Security",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net45/Ookii.Dialogs.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Ookii.Dialogs.Wpf.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/2.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "4.2.1"
+        },
+        "compile": {
+          "lib/net452/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/net452/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
+        }
+      },
+      "Sprache/2.2.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net45/Sprache.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Sprache.dll": {}
+        }
+      },
+      "Stylet/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Stylet.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Stylet.dll": {}
+        }
+      },
+      "System.Windows.Interactivity.WPF/2.0.20525": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Expression.Interactions.dll": {},
+          "lib/net40/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Expression.Interactions.dll": {},
+          "lib/net40/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "Tyrrrz.Extensions/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Tyrrrz.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Tyrrrz.Extensions.dll": {}
+        }
+      },
+      "Tyrrrz.Settings/1.3.4": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.2"
+        },
+        "compile": {
+          "lib/net45/Tyrrrz.Settings.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Tyrrrz.Settings.dll": {}
+        }
+      },
+      "YoutubeExplode/4.7.6": {
+        "type": "package",
+        "dependencies": {
+          "LtGt": "1.0.0",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/YoutubeExplode.dll": {}
+        },
+        "runtime": {
+          "lib/net45/YoutubeExplode.dll": {}
+        }
+      },
+      "YoutubeExplode.Converter/1.4.2": {
+        "type": "package",
+        "dependencies": {
+          "CliWrap": "2.2.2",
+          "YoutubeExplode": "4.7.0"
+        },
+        "compile": {
+          "lib/net45/YoutubeExplode.Converter.dll": {}
+        },
+        "runtime": {
+          "lib/net45/YoutubeExplode.Converter.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x86": {
+      "CliWrap/2.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/CliWrap.dll": {}
+        },
+        "runtime": {
+          "lib/net45/CliWrap.dll": {}
+        }
+      },
+      "Fody/4.2.1": {
+        "type": "package",
+        "build": {
+          "build/Fody.targets": {}
+        }
+      },
+      "Gress/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Gress.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Gress.dll": {}
+        }
+      },
+      "LtGt/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Sprache": "2.2.0"
+        },
+        "compile": {
+          "lib/net45/LtGt.dll": {}
+        },
+        "runtime": {
+          "lib/net45/LtGt.dll": {}
+        }
+      },
+      "MaterialDesignColors/1.1.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/MaterialDesignColors.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MaterialDesignColors.dll": {}
+        }
+      },
+      "MaterialDesignThemes/2.5.1": {
+        "type": "package",
+        "dependencies": {
+          "MaterialDesignColors": "1.1.2"
+        },
+        "compile": {
+          "lib/net45/MaterialDesignThemes.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/MaterialDesignThemes.Wpf.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Onova/2.4.3": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "frameworkAssemblies": [
+          "System.IO.Compression",
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net46/Onova.dll": {}
+        },
+        "runtime": {
+          "lib/net46/Onova.dll": {}
+        }
+      },
+      "Ookii.Dialogs.Wpf/1.1.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "PresentationCore",
+          "PresentationFramework",
+          "System",
+          "System.Core",
+          "System.Design",
+          "System.Drawing",
+          "System.Security",
+          "WindowsBase"
+        ],
+        "compile": {
+          "lib/net45/Ookii.Dialogs.Wpf.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Ookii.Dialogs.Wpf.dll": {}
+        }
+      },
+      "PropertyChanged.Fody/2.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Fody": "4.2.1"
+        },
+        "compile": {
+          "lib/net452/PropertyChanged.dll": {}
+        },
+        "runtime": {
+          "lib/net452/PropertyChanged.dll": {}
+        },
+        "build": {
+          "build/PropertyChanged.Fody.props": {}
+        }
+      },
+      "Sprache/2.2.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core"
+        ],
+        "compile": {
+          "lib/net45/Sprache.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Sprache.dll": {}
+        }
+      },
+      "Stylet/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Stylet.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Stylet.dll": {}
+        }
+      },
+      "System.Windows.Interactivity.WPF/2.0.20525": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Microsoft.Expression.Interactions.dll": {},
+          "lib/net40/System.Windows.Interactivity.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Microsoft.Expression.Interactions.dll": {},
+          "lib/net40/System.Windows.Interactivity.dll": {}
+        }
+      },
+      "Tyrrrz.Extensions/1.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Tyrrrz.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Tyrrrz.Extensions.dll": {}
+        }
+      },
+      "Tyrrrz.Settings/1.3.4": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.2"
+        },
+        "compile": {
+          "lib/net45/Tyrrrz.Settings.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Tyrrrz.Settings.dll": {}
+        }
+      },
+      "YoutubeExplode/4.7.6": {
+        "type": "package",
+        "dependencies": {
+          "LtGt": "1.0.0",
+          "Newtonsoft.Json": "12.0.2"
+        },
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "lib/net45/YoutubeExplode.dll": {}
+        },
+        "runtime": {
+          "lib/net45/YoutubeExplode.dll": {}
+        }
+      },
+      "YoutubeExplode.Converter/1.4.2": {
+        "type": "package",
+        "dependencies": {
+          "CliWrap": "2.2.2",
+          "YoutubeExplode": "4.7.0"
+        },
+        "compile": {
+          "lib/net45/YoutubeExplode.Converter.dll": {}
+        },
+        "runtime": {
+          "lib/net45/YoutubeExplode.Converter.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CliWrap/2.2.2": {
+      "sha512": "8u83ZkNCkYZ+JttJPWiDA0zV4hyXb2kY4Dq1CFY2VoanFrMbgptoJKcajZ2I6IjkrjMo5qk1OHEzZgqLWVQYHQ==",
+      "type": "package",
+      "path": "cliwrap/2.2.2",
+      "files": [
+        ".signature.p7s",
+        "cliwrap.2.2.2.nupkg.sha512",
+        "cliwrap.nuspec",
+        "lib/net45/CliWrap.dll",
+        "lib/net45/CliWrap.xml",
+        "lib/netstandard2.0/CliWrap.dll",
+        "lib/netstandard2.0/CliWrap.xml"
+      ]
+    },
+    "Fody/4.2.1": {
+      "sha512": "+qRvdH3bjQxGZ5DiuagjUj2UMXnDaqGc/04MLeI2lfjNVhLQ7oHcJwIV3n2wmQylF6RvPLjP/iPOukqAwZu0Hw==",
+      "type": "package",
+      "path": "fody/4.2.1",
+      "files": [
+        ".signature.p7s",
+        "build/Fody.targets",
+        "fody.4.2.1.nupkg.sha512",
+        "fody.nuspec",
+        "netclassictask/Fody.dll",
+        "netclassictask/FodyCommon.dll",
+        "netclassictask/FodyHelpers.dll",
+        "netclassictask/FodyIsolated.dll",
+        "netclassictask/Mono.Cecil.Mdb.dll",
+        "netclassictask/Mono.Cecil.Mdb.pdb",
+        "netclassictask/Mono.Cecil.Pdb.dll",
+        "netclassictask/Mono.Cecil.Pdb.pdb",
+        "netclassictask/Mono.Cecil.Rocks.dll",
+        "netclassictask/Mono.Cecil.Rocks.pdb",
+        "netclassictask/Mono.Cecil.dll",
+        "netclassictask/Mono.Cecil.pdb",
+        "netstandardtask/Fody.dll",
+        "netstandardtask/FodyCommon.dll",
+        "netstandardtask/FodyHelpers.dll",
+        "netstandardtask/FodyIsolated.dll",
+        "netstandardtask/Mono.Cecil.Mdb.dll",
+        "netstandardtask/Mono.Cecil.Mdb.pdb",
+        "netstandardtask/Mono.Cecil.Pdb.dll",
+        "netstandardtask/Mono.Cecil.Pdb.pdb",
+        "netstandardtask/Mono.Cecil.Rocks.dll",
+        "netstandardtask/Mono.Cecil.Rocks.pdb",
+        "netstandardtask/Mono.Cecil.dll",
+        "netstandardtask/Mono.Cecil.pdb"
+      ]
+    },
+    "Gress/1.1.1": {
+      "sha512": "yiQhNnZHW7htUh3ddRtwAl9U1XAJMQFM7yNSlBEIkARqFVtC0DHD3ofZKzN4sRVq7W4OMz2mHajmKmTzvTsjrQ==",
+      "type": "package",
+      "path": "gress/1.1.1",
+      "files": [
+        ".signature.p7s",
+        "gress.1.1.1.nupkg.sha512",
+        "gress.nuspec",
+        "lib/net45/Gress.dll",
+        "lib/net45/Gress.xml",
+        "lib/netstandard1.0/Gress.dll",
+        "lib/netstandard1.0/Gress.xml",
+        "lib/netstandard2.0/Gress.dll",
+        "lib/netstandard2.0/Gress.xml"
+      ]
+    },
+    "LtGt/1.0.0": {
+      "sha512": "FvWNmF6z1hi2ORwtOQXwg5gDD10iiJFcdbOJYOKSmFy3PHRUYBMmSSmvWadpy+IxYcCv5AFN8Z35GQei90WZtw==",
+      "type": "package",
+      "path": "ltgt/1.0.0",
+      "files": [
+        ".signature.p7s",
+        "lib/net45/LtGt.dll",
+        "lib/net45/LtGt.xml",
+        "lib/netstandard1.0/LtGt.dll",
+        "lib/netstandard1.0/LtGt.xml",
+        "lib/netstandard2.0/LtGt.dll",
+        "lib/netstandard2.0/LtGt.xml",
+        "ltgt.1.0.0.nupkg.sha512",
+        "ltgt.nuspec"
+      ]
+    },
+    "MaterialDesignColors/1.1.3": {
+      "sha512": "os3xFYXdjzL7yYhdhHI3iN8hTMJIHK2FThoTtzRs0tNMEHos6ag3D3LpzTwFsXeqKq3n2rnpxMrHies7wmVWeg==",
+      "type": "package",
+      "path": "materialdesigncolors/1.1.3",
+      "files": [
+        ".signature.p7s",
+        "lib/net45/MaterialDesignColors.dll",
+        "lib/net45/MaterialDesignColors.pdb",
+        "materialdesigncolors.1.1.3.nupkg.sha512",
+        "materialdesigncolors.nuspec"
+      ]
+    },
+    "MaterialDesignThemes/2.5.1": {
+      "sha512": "byWt6Ib/jM8iz4WKfEMFcbb1VTo60ritXuC08tLHTrRbIhGvyVj3oldMUc/hnG4Y0s7V87nxlMLvR84zIUKWAw==",
+      "type": "package",
+      "path": "materialdesignthemes/2.5.1",
+      "files": [
+        ".signature.p7s",
+        "lib/net45/MaterialDesignThemes.Wpf.XML",
+        "lib/net45/MaterialDesignThemes.Wpf.dll",
+        "lib/net45/MaterialDesignThemes.Wpf.pdb",
+        "materialdesignthemes.2.5.1.nupkg.sha512",
+        "materialdesignthemes.nuspec",
+        "src/net45/Badged.cs",
+        "src/net45/BaseTheme.cs",
+        "src/net45/ButtonProgressAssist.cs",
+        "src/net45/Card.cs",
+        "src/net45/Chip.cs",
+        "src/net45/Clock.cs",
+        "src/net45/ClockChoiceMadeEventArgs.cs",
+        "src/net45/ClockItemButton.cs",
+        "src/net45/ColorZone.cs",
+        "src/net45/ColorZoneAssist.cs",
+        "src/net45/ComboBoxAssist.cs",
+        "src/net45/ComboBoxPopup.cs",
+        "src/net45/Converters/BooleanToVisibilityConverter.cs",
+        "src/net45/Converters/BrushRoundConverter.cs",
+        "src/net45/Converters/BrushToRadialGradientBrushConverter.cs",
+        "src/net45/Converters/CalendarDateCoalesceConverter.cs",
+        "src/net45/Converters/CircularProgressBar/ArcEndPointConverter.cs",
+        "src/net45/Converters/CircularProgressBar/ArcSizeConverter.cs",
+        "src/net45/Converters/CircularProgressBar/LargeArcConverter.cs",
+        "src/net45/Converters/CircularProgressBar/LocalEx.cs",
+        "src/net45/Converters/CircularProgressBar/RotateTransformCentreConverter.cs",
+        "src/net45/Converters/CircularProgressBar/StartPointConverter.cs",
+        "src/net45/Converters/ClockItemIsCheckedConverter.cs",
+        "src/net45/Converters/ClockLineConverter.cs",
+        "src/net45/Converters/DrawerOffsetConverter.cs",
+        "src/net45/Converters/EqualityToVisibilityConverter.cs",
+        "src/net45/Converters/HintProxyFabricConverter.cs",
+        "src/net45/Converters/ListViewItemContainerStyleConverter.cs",
+        "src/net45/Converters/MathConverter.cs",
+        "src/net45/Converters/MathMultipleConverter.cs",
+        "src/net45/Converters/NotConverter.cs",
+        "src/net45/Converters/NotZeroConverter.cs",
+        "src/net45/Converters/NotZeroToVisibilityConverter.cs",
+        "src/net45/Converters/NullToVisibilityConverter.cs",
+        "src/net45/Converters/NullableDateTimeToCurrentDateConverter.cs",
+        "src/net45/Converters/PointValueConverter.cs",
+        "src/net45/Converters/RangeLengthConverter.cs",
+        "src/net45/Converters/RangePositionConverterConverter.cs",
+        "src/net45/Converters/ShadowConverter.cs",
+        "src/net45/Converters/ShadowEdgeConverter.cs",
+        "src/net45/Converters/ShadowInfo.cs",
+        "src/net45/Converters/SizeToRectConverter.cs",
+        "src/net45/Converters/SnackbarMessageTypeConverter.cs",
+        "src/net45/Converters/TextFieldHintVisibilityConverter.cs",
+        "src/net45/Converters/TimeToVisibilityConverter.cs",
+        "src/net45/CustomPopupPlacementCallbackHelper.cs",
+        "src/net45/DataGridAssist.cs",
+        "src/net45/DateTimeEx.cs",
+        "src/net45/DialogClosingEventArgs.cs",
+        "src/net45/DialogClosingEventHandler.cs",
+        "src/net45/DialogHost.cs",
+        "src/net45/DialogHostEx.cs",
+        "src/net45/DialogOpenedEventArgs.cs",
+        "src/net45/DialogOpenedEventHandler.cs",
+        "src/net45/DialogSession.cs",
+        "src/net45/DpiHelper.cs",
+        "src/net45/DrawerHost.cs",
+        "src/net45/ExpanderAssist.cs",
+        "src/net45/Extensions.cs",
+        "src/net45/Flipper.cs",
+        "src/net45/HintAssist.cs",
+        "src/net45/HintProxyFabric.ComboBox.cs",
+        "src/net45/HintProxyFabric.PasswordBox.cs",
+        "src/net45/HintProxyFabric.TextBox.cs",
+        "src/net45/HintProxyFabric.cs",
+        "src/net45/IHintProxy.cs",
+        "src/net45/ISnackbarMessageQueue.cs",
+        "src/net45/Icon.cs",
+        "src/net45/IconType.cs",
+        "src/net45/ListBoxAssist.cs",
+        "src/net45/ListSortDirectionIndicator.cs",
+        "src/net45/ListViewAssist.cs",
+        "src/net45/MaterialDataGridComboBoxColumn.cs",
+        "src/net45/MaterialDataGridTextColumn.cs",
+        "src/net45/MaterialDateDisplay.cs",
+        "src/net45/MessageQueueExtension.cs",
+        "src/net45/PackIcon.cs",
+        "src/net45/PackIconDataFactory.cs",
+        "src/net45/PackIconExtension.cs",
+        "src/net45/PackIconKind.cs",
+        "src/net45/Palette.cs",
+        "src/net45/PaletteHelper.cs",
+        "src/net45/Plane3D.cs",
+        "src/net45/PopupBox.cs",
+        "src/net45/Properties/AssemblyInfo.cs",
+        "src/net45/Properties/Resources.Designer.cs",
+        "src/net45/Properties/Settings.Designer.cs",
+        "src/net45/RatingBar.cs",
+        "src/net45/RatingBarButton.cs",
+        "src/net45/Ripple.cs",
+        "src/net45/RippleAssist.cs",
+        "src/net45/ScaleHost.cs",
+        "src/net45/Screen.cs",
+        "src/net45/ScrollViewerAssist.cs",
+        "src/net45/ShadowAssist.cs",
+        "src/net45/SmartHint.cs",
+        "src/net45/Snackbar.cs",
+        "src/net45/SnackbarMessage.cs",
+        "src/net45/SnackbarMessageEventArgs.cs",
+        "src/net45/SnackbarMessageQueue.cs",
+        "src/net45/SnackbarMessageQueueItem.cs",
+        "src/net45/Spelling.cs",
+        "src/net45/StringExtensions.cs",
+        "src/net45/TextFieldAssist.cs",
+        "src/net45/ThemeAssist.cs",
+        "src/net45/TimePicker.cs",
+        "src/net45/ToggleButtonAssist.cs",
+        "src/net45/ToolTipAssist.cs",
+        "src/net45/Transitions/CircleWipe.cs",
+        "src/net45/Transitions/FadeWipe.cs",
+        "src/net45/Transitions/ITransitionEffect.cs",
+        "src/net45/Transitions/ITransitionEffectSubject.cs",
+        "src/net45/Transitions/ITransitionWipe.cs",
+        "src/net45/Transitions/IZIndexController.cs",
+        "src/net45/Transitions/IndexedItemOffsetMultiplierExtension.cs",
+        "src/net45/Transitions/SlideDirection.cs",
+        "src/net45/Transitions/SlideOutWipe.cs",
+        "src/net45/Transitions/SlideWipe.cs",
+        "src/net45/Transitions/TransitionAssist.cs",
+        "src/net45/Transitions/TransitionEffect.cs",
+        "src/net45/Transitions/TransitionEffectBase.cs",
+        "src/net45/Transitions/TransitionEffectExtension.cs",
+        "src/net45/Transitions/TransitionEffectKind.cs",
+        "src/net45/Transitions/TransitionEffectTypeConverter.cs",
+        "src/net45/Transitions/Transitioner.cs",
+        "src/net45/Transitions/TransitionerSlide.cs",
+        "src/net45/Transitions/TransitionerSlideState.cs",
+        "src/net45/Transitions/TransitioningContent.cs",
+        "src/net45/Transitions/TransitioningContentBase.cs",
+        "src/net45/TreeHelper.cs",
+        "src/net45/TreeViewAssist.cs",
+        "src/net45/Underline.cs",
+        "src/net45/ValidationAssist.cs",
+        "src/net45/obj/AppVeyor/GeneratedInternalTypeHelper.g.cs",
+        "src/net45/obj/AppVeyor/Properties/AssemblyInfo.cs"
+      ]
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "mtweBXPWhp1CMQATtBT7ZfMZrbZBTKfjGwz6Y75NwGjx/GztDaUnfw8GK9KZ2T4fDIqKJyDjc9Rxlw5+G2FcVA==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.2",
+      "files": [
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "Onova/2.4.3": {
+      "sha512": "bYPiuntF0UQSDpq1BxM3VXW8O80yA56uEb1b43q+puKWNIY1Gsursi4KLAQMW333Mzpd50Dcu7O3wQmiMEn+NA==",
+      "type": "package",
+      "path": "onova/2.4.3",
+      "files": [
+        ".signature.p7s",
+        "lib/net46/Onova.dll",
+        "lib/net46/Onova.xml",
+        "lib/netstandard2.0/Onova.dll",
+        "lib/netstandard2.0/Onova.xml",
+        "onova.2.4.3.nupkg.sha512",
+        "onova.nuspec"
+      ]
+    },
+    "Ookii.Dialogs.Wpf/1.1.0": {
+      "sha512": "oxcco1SlgNKcxuJ+hhM6YRwNcnWC3SMVwcfqt/LEbZ0Z+YzYqqSdvtxANi8R+OlmUGse9Ma+pYOW4Im3qAqrfg==",
+      "type": "package",
+      "path": "ookii.dialogs.wpf/1.1.0",
+      "files": [
+        ".signature.p7s",
+        "lib/net45/Ookii.Dialogs.Wpf.dll",
+        "lib/net45/Ookii.Dialogs.Wpf.pdb",
+        "lib/net45/Ookii.Dialogs.Wpf.xml",
+        "ookii.dialogs.wpf.1.1.0.nupkg.sha512",
+        "ookii.dialogs.wpf.nuspec"
+      ]
+    },
+    "PropertyChanged.Fody/2.6.1": {
+      "sha512": "/aLvkgNsRW8/7OOGU9tOIKtaHUZ8an1ziy8sDSjgbILnx4aNiV7ZmtyUsy6EUIJehyyNlVmRItcy+yoDBimW4g==",
+      "type": "package",
+      "path": "propertychanged.fody/2.6.1",
+      "files": [
+        ".signature.p7s",
+        "build/PropertyChanged.Fody.props",
+        "lib/net452/PropertyChanged.dll",
+        "lib/net452/PropertyChanged.xml",
+        "lib/netstandard1.0/PropertyChanged.dll",
+        "lib/netstandard1.0/PropertyChanged.xml",
+        "netclassicweaver/PropertyChanged.Fody.dll",
+        "netclassicweaver/PropertyChanged.Fody.pdb",
+        "netclassicweaver/PropertyChanged.Fody.xcf",
+        "netstandardweaver/PropertyChanged.Fody.dll",
+        "netstandardweaver/PropertyChanged.Fody.pdb",
+        "netstandardweaver/PropertyChanged.Fody.xcf",
+        "propertychanged.fody.2.6.1.nupkg.sha512",
+        "propertychanged.fody.nuspec"
+      ]
+    },
+    "Sprache/2.2.0": {
+      "sha512": "c/P5ehY6UEIMnp6UTqRGpEuJIWiw2B0Fx3P2Yl18ZxU1lbO+Eim0i8zIlLUB4y6S9ZvsIYFZecugBGcI+n+e6g==",
+      "type": "package",
+      "path": "sprache/2.2.0",
+      "files": [
+        ".signature.p7s",
+        "lib/net35/Sprache.dll",
+        "lib/net35/Sprache.xml",
+        "lib/net40/Sprache.dll",
+        "lib/net40/Sprache.xml",
+        "lib/net45/Sprache.dll",
+        "lib/net45/Sprache.xml",
+        "lib/netstandard1.0/Sprache.dll",
+        "lib/netstandard1.0/Sprache.xml",
+        "lib/netstandard2.0/Sprache.dll",
+        "lib/netstandard2.0/Sprache.xml",
+        "lib/sl5/Sprache.dll",
+        "lib/sl5/Sprache.xml",
+        "sprache.2.2.0.nupkg.sha512",
+        "sprache.nuspec"
+      ]
+    },
+    "Stylet/1.2.0": {
+      "sha512": "T7HcqIWfg3w+E7VTifc6tuBB/gTt+/QygXc4toLoi9nSgFetCmENXh6ZJJuRVzlsK2xCspwknyrvgHXf6lRTNA==",
+      "type": "package",
+      "path": "stylet/1.2.0",
+      "files": [
+        ".signature.p7s",
+        "lib/net45/Stylet.dll",
+        "lib/net45/Stylet.pdb",
+        "lib/net45/Stylet.pdb.srcsrv",
+        "lib/net45/Stylet.xml",
+        "readme.txt",
+        "stylet.1.2.0.nupkg.sha512",
+        "stylet.nuspec"
+      ]
+    },
+    "System.Windows.Interactivity.WPF/2.0.20525": {
+      "sha512": "ViVjaxNyxTMU+l7LlmhR+hDyGmaaKSfmsEtjeGmB5a6YpVWBZznbR8ZLEN9RjgyIRjhYH7IYin8E89TNxsxMKw==",
+      "type": "package",
+      "path": "system.windows.interactivity.wpf/2.0.20525",
+      "files": [
+        ".signature.p7s",
+        "lib/net40/Microsoft.Expression.Interactions.dll",
+        "lib/net40/Microsoft.Expression.Interactions.xml",
+        "lib/net40/System.Windows.Interactivity.dll",
+        "lib/net40/System.Windows.Interactivity.xml",
+        "system.windows.interactivity.wpf.2.0.20525.nupkg.sha512",
+        "system.windows.interactivity.wpf.nuspec"
+      ]
+    },
+    "Tyrrrz.Extensions/1.6.2": {
+      "sha512": "5EqPfmz37qWSnMYD9B/geF04BC4ahPpWa8Zm9HJ/rPtcimMFflePTmEfr4rs11iSLf2WKhaaGIRN42zp4g0jDA==",
+      "type": "package",
+      "path": "tyrrrz.extensions/1.6.2",
+      "files": [
+        ".signature.p7s",
+        "lib/net45/Tyrrrz.Extensions.dll",
+        "lib/net45/Tyrrrz.Extensions.xml",
+        "lib/netstandard1.0/Tyrrrz.Extensions.dll",
+        "lib/netstandard1.0/Tyrrrz.Extensions.xml",
+        "lib/netstandard2.0/Tyrrrz.Extensions.dll",
+        "lib/netstandard2.0/Tyrrrz.Extensions.xml",
+        "tyrrrz.extensions.1.6.2.nupkg.sha512",
+        "tyrrrz.extensions.nuspec"
+      ]
+    },
+    "Tyrrrz.Settings/1.3.4": {
+      "sha512": "Cf+gSJvs4W6Ze9gYei9dLKDT71t1LVfM8oMz07SnviJpjwjp/2BgP1iHJ9k6AwHXOavmFlvLvhR49wXj/ckuWw==",
+      "type": "package",
+      "path": "tyrrrz.settings/1.3.4",
+      "files": [
+        ".signature.p7s",
+        "lib/net45/Tyrrrz.Settings.dll",
+        "lib/net45/Tyrrrz.Settings.xml",
+        "lib/netstandard2.0/Tyrrrz.Settings.dll",
+        "lib/netstandard2.0/Tyrrrz.Settings.xml",
+        "tyrrrz.settings.1.3.4.nupkg.sha512",
+        "tyrrrz.settings.nuspec"
+      ]
+    },
+    "YoutubeExplode/4.7.6": {
+      "sha512": "E1An4C3Lx6jirTzVl+KtwIKs753nt/zz5SFzQRtmqeTI3nz7qPK7OUeIAtlS4LrkNKQOwHPpSJyXua11yXQhSQ==",
+      "type": "package",
+      "path": "youtubeexplode/4.7.6",
+      "files": [
+        ".signature.p7s",
+        "lib/net45/YoutubeExplode.dll",
+        "lib/net45/YoutubeExplode.xml",
+        "lib/netstandard1.1/YoutubeExplode.dll",
+        "lib/netstandard1.1/YoutubeExplode.xml",
+        "lib/netstandard2.0/YoutubeExplode.dll",
+        "lib/netstandard2.0/YoutubeExplode.xml",
+        "youtubeexplode.4.7.6.nupkg.sha512",
+        "youtubeexplode.nuspec"
+      ]
+    },
+    "YoutubeExplode.Converter/1.4.2": {
+      "sha512": "8SAqAPXyou0rrRT1DR2AFe4z0fI2FHaVrspqzFUeHg1hqpsYsFVDyr8NlnVZ1as6DJvJ5Jrd6gtssPMkdkpV1Q==",
+      "type": "package",
+      "path": "youtubeexplode.converter/1.4.2",
+      "files": [
+        ".signature.p7s",
+        "lib/net45/YoutubeExplode.Converter.dll",
+        "lib/net45/YoutubeExplode.Converter.xml",
+        "lib/netstandard2.0/YoutubeExplode.Converter.dll",
+        "lib/netstandard2.0/YoutubeExplode.Converter.xml",
+        "youtubeexplode.converter.1.4.2.nupkg.sha512",
+        "youtubeexplode.converter.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "Gress >= 1.1.1",
+      "MaterialDesignColors >= 1.1.3",
+      "MaterialDesignThemes >= 2.5.1",
+      "Onova >= 2.4.3",
+      "Ookii.Dialogs.Wpf >= 1.1.0",
+      "PropertyChanged.Fody >= 2.6.1",
+      "Stylet >= 1.2.0",
+      "System.Windows.Interactivity.WPF >= 2.0.20525",
+      "Tyrrrz.Extensions >= 1.6.2",
+      "Tyrrrz.Settings >= 1.3.4",
+      "YoutubeExplode >= 4.7.6",
+      "YoutubeExplode.Converter >= 1.4.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Abhishek\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Abhishek\\source\\repos\\Practice\\UtilityTools\\YoutubeDownloader\\YoutubeDownloader.csproj",
+      "projectName": "YoutubeDownloader",
+      "projectPath": "C:\\Users\\Abhishek\\source\\repos\\Practice\\UtilityTools\\YoutubeDownloader\\YoutubeDownloader.csproj",
+      "packagesPath": "C:\\Users\\Abhishek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Abhishek\\source\\repos\\Practice\\UtilityTools\\YoutubeDownloader\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Abhishek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "Gress": {
+            "target": "Package",
+            "version": "[1.1.1, )"
+          },
+          "MaterialDesignColors": {
+            "target": "Package",
+            "version": "[1.1.3, )"
+          },
+          "MaterialDesignThemes": {
+            "target": "Package",
+            "version": "[2.5.1, )"
+          },
+          "Onova": {
+            "target": "Package",
+            "version": "[2.4.3, )"
+          },
+          "Ookii.Dialogs.Wpf": {
+            "target": "Package",
+            "version": "[1.1.0, )"
+          },
+          "PropertyChanged.Fody": {
+            "target": "Package",
+            "version": "[2.6.1, )"
+          },
+          "Stylet": {
+            "target": "Package",
+            "version": "[1.2.0, )"
+          },
+          "System.Windows.Interactivity.WPF": {
+            "target": "Package",
+            "version": "[2.0.20525, )"
+          },
+          "Tyrrrz.Extensions": {
+            "target": "Package",
+            "version": "[1.6.2, )"
+          },
+          "Tyrrrz.Settings": {
+            "target": "Package",
+            "version": "[1.3.4, )"
+          },
+          "YoutubeExplode": {
+            "target": "Package",
+            "version": "[4.7.6, )"
+          },
+          "YoutubeExplode.Converter": {
+            "target": "Package",
+            "version": "[1.4.2, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

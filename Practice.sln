@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Experiment", "Experiment\Experiment.csproj", "{B869A3A6-AA98-4A20-83A6-6D0217567DEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenGenerator", "TokenGenerator\TokenGenerator.csproj", "{4F490DAB-46FD-4A0D-925A-685ABF037A53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerRank", "HackerRank\HackerRank.csproj", "{38C4FC53-E36E-4567-B816-ACBACFE9507F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UtilityTools", "UtilityTools", "{550C63AC-7247-4412-9C6B-33E4578B52FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Html2Image", "UtilityTools\Html2Image\Html2Image.csproj", "{17DFE707-DE31-4D9B-81A5-CD518A1099D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TokenGenerator", "UtilityTools\TokenGenerator\TokenGenerator.csproj", "{8AA00330-7688-4100-A567-6433EDE9D47B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoutubeDownloader", "UtilityTools\YoutubeDownloader\YoutubeDownloader.csproj", "{AF6D645E-DDDD-4034-B644-D5328CC893C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B869A3A6-AA98-4A20-83A6-6D0217567DEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B869A3A6-AA98-4A20-83A6-6D0217567DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B869A3A6-AA98-4A20-83A6-6D0217567DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B869A3A6-AA98-4A20-83A6-6D0217567DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F490DAB-46FD-4A0D-925A-685ABF037A53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F490DAB-46FD-4A0D-925A-685ABF037A53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F490DAB-46FD-4A0D-925A-685ABF037A53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F490DAB-46FD-4A0D-925A-685ABF037A53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38C4FC53-E36E-4567-B816-ACBACFE9507F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38C4FC53-E36E-4567-B816-ACBACFE9507F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38C4FC53-E36E-4567-B816-ACBACFE9507F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38C4FC53-E36E-4567-B816-ACBACFE9507F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17DFE707-DE31-4D9B-81A5-CD518A1099D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17DFE707-DE31-4D9B-81A5-CD518A1099D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17DFE707-DE31-4D9B-81A5-CD518A1099D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17DFE707-DE31-4D9B-81A5-CD518A1099D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AA00330-7688-4100-A567-6433EDE9D47B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AA00330-7688-4100-A567-6433EDE9D47B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AA00330-7688-4100-A567-6433EDE9D47B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AA00330-7688-4100-A567-6433EDE9D47B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF6D645E-DDDD-4034-B644-D5328CC893C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF6D645E-DDDD-4034-B644-D5328CC893C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF6D645E-DDDD-4034-B644-D5328CC893C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF6D645E-DDDD-4034-B644-D5328CC893C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17DFE707-DE31-4D9B-81A5-CD518A1099D5} = {550C63AC-7247-4412-9C6B-33E4578B52FF}
+		{8AA00330-7688-4100-A567-6433EDE9D47B} = {550C63AC-7247-4412-9C6B-33E4578B52FF}
+		{AF6D645E-DDDD-4034-B644-D5328CC893C1} = {550C63AC-7247-4412-9C6B-33E4578B52FF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FDA54AB-3BC7-498D-93EE-012B434CE86D}
+	EndGlobalSection
+EndGlobal

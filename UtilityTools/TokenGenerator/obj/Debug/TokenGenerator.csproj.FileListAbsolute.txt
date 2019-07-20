@@ -1,0 +1,13 @@
+C:\Users\Abhishek\source\repos\Practice\TokenGenerator\bin\Debug\TokenGenerator.exe.config
+C:\Users\Abhishek\source\repos\Practice\TokenGenerator\bin\Debug\TokenGenerator.exe
+C:\Users\Abhishek\source\repos\Practice\TokenGenerator\bin\Debug\TokenGenerator.pdb
+C:\Users\Abhishek\source\repos\Practice\TokenGenerator\obj\Debug\TokenGenerator.csprojResolveAssemblyReference.cache
+C:\Users\Abhishek\source\repos\Practice\TokenGenerator\obj\Debug\TokenGenerator.FormTokenGenerator.resources
+C:\Users\Abhishek\source\repos\Practice\TokenGenerator\obj\Debug\TokenGenerator.Properties.Resources.resources
+C:\Users\Abhishek\source\repos\Practice\TokenGenerator\obj\Debug\TokenGenerator.csproj.GenerateResource.cache
+C:\Users\Abhishek\source\repos\Practice\TokenGenerator\obj\Debug\TokenGenerator.csproj.CoreCompileInputs.cache
+C:\Users\Abhishek\source\repos\Practice\TokenGenerator\obj\Debug\TokenGenerator.exe
+C:\Users\Abhishek\source\repos\Practice\TokenGenerator\obj\Debug\TokenGenerator.pdb
+C:\Users\Abhishek\source\repos\Practice\TokenGenerator\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Abhishek\source\repos\Practice\TokenGenerator\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Abhishek\source\repos\Practice\TokenGenerator\obj\Debug\TokenGenerator.csproj.CopyComplete
