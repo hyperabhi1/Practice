@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HackerRank
 {
-    public class SherlockAndTheValidString
+    public class SherlockAndTheValidString : IHackerRankContract
     {
         public string IsSherlockAndTheValidString(string input)
         {

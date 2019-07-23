@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace HackerRank
 {
-    public class WeightedUniformStrings
+    public class WeightedUniformStrings : IHackerRankContract
     {
         /// <summary>
         /// Source URL : https://www.hackerrank.com/challenges/weighted-uniform-string/problem?isFullScreen=false&utm_campaign=challenge-recommendation&utm_medium=email&utm_source=60-day-campaign

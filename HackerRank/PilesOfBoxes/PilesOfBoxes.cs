@@ -1,6 +1,6 @@
 ﻿namespace HackerRank
 {
-    class PilesOfBoxes
+    class PilesOfBoxes : IHackerRankContract
     {
         /// <summary>
         /// Gets the minimum steps required to moves the piles to the same height.
