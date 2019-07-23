@@ -40,14 +40,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IHackerRankContract.cs" />
     <Compile Include="PilesOfBoxes\PilesOfBoxes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SherlockandAnagrams\SherlockAndAnagrams.cs" />
     <Compile Include="SherlockAndTheValidString\SherlockAndTheValidString.cs" />
     <Compile Include="WeightedUniformStrings\WeightedUniformStrings.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="PilesOfBoxes\ProblemStatement %281%29.jpg" />
     <Content Include="PilesOfBoxes\ProblemStatement %282%29.jpg" />
+    <Content Include="SherlockandAnagrams\ProblemStatement.png" />
     <Content Include="SherlockAndTheValidString\ProblemStatement.png" />
     <Content Include="WeightedUniformStrings\ProblemStatement.png" />
   </ItemGroup>
